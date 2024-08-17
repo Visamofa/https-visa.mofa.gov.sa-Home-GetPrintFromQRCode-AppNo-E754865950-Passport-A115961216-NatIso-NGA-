@@ -1,7 +1,31 @@
-<html>
-<body>
-<maim>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Rounded Corners</title>
+    <style>
+        .container {
+            width: 397px;
+            height: 637px;
+            overflow: hidden;
+            border-radius: 20px; /* Adjust the radius as needed */
+            border: 2px solid #ccc; /* Optional: Add a border */
+        }
 
-<center><img src="ev.jpg"></center>
-</body>
+        .container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the container */
+        }
+
+    </style>
+
+</head>
+<body><center>
+    <div class="container">
+        <img src="ev.jpg" alt="ev">
+    </div>
+
+</center></body>
 </html>
